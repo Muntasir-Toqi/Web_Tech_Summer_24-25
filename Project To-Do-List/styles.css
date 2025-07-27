@@ -1,6 +1,9 @@
 body {
     font-family: Arial;
     background-color: silver;
+    align-items: center;
+
+
 }
 .auth-page {
     padding: 20px;
@@ -8,11 +11,12 @@ body {
 
 }
 .form-container {
-    padding: 20px;
-    margin-left:400px;
-    margin-top: 200px;
+    padding: 30px;
+    margin-left:40%;
+    margin-right: 40%;
+    margin-top: 100px;
     background-color: salmon;
-    width: 40%;
+    width: 20%;
     align-items: center;
 }
 
@@ -21,4 +25,7 @@ form input, form button {
     padding:5px;
     margin-top:5px;
     margin-bottom:5px;
+}
+.form-container .notification{
+    width:10%;
 }
